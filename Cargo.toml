@@ -1,0 +1,29 @@
+[package]
+name = "pico_macropad"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Use rp-pico 0.6.0, which is compatible with critical-section 1.x.x
+rp-pico = "0.6"
+
+# Embedded HAL (Hardware Abstraction Layer)
+embedded-hal = "0.2"
+
+# Cortex-M crate for embedded systems
+cortex-m = "0.7"
+
+# Cortex-M runtime crate for entry point and panic handling
+cortex-m-rt = "0.7"
+
+# Panic handler (halt the program on panic)
+panic-halt = "0.2"
+
+# The `critical-section` crate for managing critical sections
+critical-section = "1.2.0"
+
+# USB device support (if you're planning to use USB in the future)
+usb-device = "0.2"
+
+# HID support for USB devices (if planning on using HID functionality)
+usbd-hid = "0.2"

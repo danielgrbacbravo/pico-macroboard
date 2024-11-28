@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/Users/danielgrbacbravo/Git/pico_macropad/target/thumbv6m-none-eabi/debug/build/rp2040-pac-aacaa54d0a657d58/out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs
